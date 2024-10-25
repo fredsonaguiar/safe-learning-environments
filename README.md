@@ -20,12 +20,12 @@ After instalation, one should be able to import and run an example by following:
 
 ```python
 import gymnasium
-import safe_mpc_environments
+import safe_learning_environments
 ```
 and then folowing the usual for classical Gymnasium environments:
 
 ```python
-env = gymnasium.make('safe_mpc_environments/TargetHazardWorld-v0', render_mode = "human")
+env = gymnasium.make('safe_learning_environments/TargetHazardWorld-v0', render_mode = "human")
 
 observation, info = env.reset()
 
